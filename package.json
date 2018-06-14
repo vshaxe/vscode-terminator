@@ -1,7 +1,7 @@
 {
     "name": "terminator",
     "publisher": "vshaxe",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "Terminator",
     "description": "Hasta la vista, task.",
     "icon": "images/icon.png",
