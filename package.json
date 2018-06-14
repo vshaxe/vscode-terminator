@@ -1,0 +1,31 @@
+{
+    "name": "terminator",
+    "publisher": "vshaxe",
+    "version": "1.0.0",
+    "displayName": "Terminator",
+    "description": "Hasta la vista, task.",
+    "icon": "images/icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vshaxe/vscode-terminator"
+    },
+    "bugs": {
+        "url": "https://github.com/vshaxe/vscode-terminator"
+    },
+    "engines": {
+        "vscode": "^1.24.0"
+    },
+    "activationEvents": [
+        "*"
+    ],
+    "main": "bin/main.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "terminator.run",
+                "title": "Run Task",
+                "category": "Terminator"
+            }
+        ]
+    }
+}
