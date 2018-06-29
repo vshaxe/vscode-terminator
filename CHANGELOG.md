@@ -1,3 +1,7 @@
+### 1.0.2 (to be released)
+
+- hid the "Terminator: Run" command from the command palette
+
 ### 1.0.1 (June 14, 2018)
 
 - improved the marketplace presentation and added some tags

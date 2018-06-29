@@ -35,7 +35,15 @@
                 "title": "Run Task",
                 "category": "Terminator"
             }
-        ]
+        ],
+        "menus": {
+            "commandPalette": [
+                {
+                    "command": "terminator.run",
+                    "when": "false"
+                }
+            ]
+        }
     },
     "scripts": {
         "vscode:prepublish": "haxe build.hxml"
