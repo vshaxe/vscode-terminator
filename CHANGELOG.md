@@ -1,4 +1,4 @@
-### 1.0.2 (to be released)
+### 1.0.2 (June 29, 2018)
 
 - hid the `"Terminator: Run"` command from the command palette
 - improved the error message for missing or empty keybinding `args`

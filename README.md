@@ -20,9 +20,9 @@ No more! Terminator allows you to run tasks without any mercy for any potentiall
 
 If you're using the [Lime extension](https://marketplace.visualstudio.com/items?itemName=openfl.lime-vscode-extension), you may also want to add the following `when` condition to your task:
 
-```json
+```js
 {
-	...
+	// ...
 	"when": "haxeCompletionProvider == 'Lime'"
 }
 ```
