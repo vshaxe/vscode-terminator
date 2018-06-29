@@ -14,10 +14,18 @@ No more! Terminator allows you to run tasks without any mercy for any potentiall
 }
 ```
 
-`args` is a regex that matches against the task name, in this case the `test neko -debug` task (extension prefixes like `lime:` are _not_ part of the string that is matched against).
+`args` contains a regex that matches against the task name, in this case the `test neko -debug` task (extension prefixes like `lime:` are _not_ part of the string that is matched against).
 
 ![](images/tasks.png)
 
+If you're using the [Lime extension](https://marketplace.visualstudio.com/items?itemName=openfl.lime-vscode-extension), you may also want to add the following `when` condition to your task:
+
+```json
+{
+	...
+	"when": "haxeCompletionProvider == 'Lime'"
+}
+```
 ______
 
 >John Connor: You just can't go around killing tasks.
