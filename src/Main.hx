@@ -17,11 +17,15 @@ class Main {
         });
 
         commands.registerCommand("terminator.run", taskName -> {
+            if (taskName == null || taskName == "") {
+                window.showErrorMessage('Keybinding is missing a task name regex to match against in `args`.');
+                return;
+            }
             var taskNameRegex = new EReg(taskName, "");
             tasks.fetchTasks().then(fetchedTasks -> {
                 var task = fetchedTasks.find(task -> taskNameRegex.match(task.name));
                 if (task == null) {
-                    window.showErrorMessage('Could not find a task that matches \'$taskName\'');
+                    window.showErrorMessage('Could not find a task whose name matches \'$taskName\'.');
                 } else {
                     var runningTask = runningTasks.find(execution -> taskNameRegex.match(execution.task.name));
                     if (runningTask != null) {
