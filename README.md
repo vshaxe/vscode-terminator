@@ -1,4 +1,5 @@
 # Terminator
+[![Build Status](https://travis-ci.org/vshaxe/vscode-terminator.svg?branch=master)](https://travis-ci.org/vshaxe/vscode-terminator) [![Version](https://vsmarketplacebadge.apphb.com/version-short/vshaxe.terminator.svg)](https://marketplace.visualstudio.com/items?itemName=vshaxe.terminator) [![Installs](https://vsmarketplacebadge.apphb.com/installs-short/vshaxe.terminator.svg)](https://marketplace.visualstudio.com/items?itemName=vshaxe.terminator)
 
 Have you wasted countless clicks on this popup too?
 
