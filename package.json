@@ -1,51 +1,51 @@
 {
-    "name": "terminator",
-    "publisher": "vshaxe",
-    "version": "1.0.2",
-    "displayName": "Terminator",
-    "description": "Hasta la vista, task.",
-    "icon": "images/icon.png",
-    "keywords": [
-        "tasks",
-        "run"
-    ],
-    "galleryBanner": {
-        "color": "#7B0000",
-        "theme": "dark"
-    },
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/vshaxe/vscode-terminator"
-    },
-    "bugs": {
-        "url": "https://github.com/vshaxe/vscode-terminator"
-    },
-    "engines": {
-        "vscode": "^1.24.0"
-    },
-    "activationEvents": [
-        "*"
-    ],
-    "main": "bin/main.js",
-    "contributes": {
-        "commands": [
-            {
-                "command": "terminator.run",
-                "title": "Run Task",
-                "category": "Terminator"
-            }
-        ],
-        "menus": {
-            "commandPalette": [
-                {
-                    "command": "terminator.run",
-                    "when": "false"
-                }
-            ]
-        }
-    },
-    "scripts": {
-        "vscode:prepublish": "haxe build.hxml"
-    }
+	"name": "terminator",
+	"publisher": "vshaxe",
+	"version": "1.0.2",
+	"displayName": "Terminator",
+	"description": "Hasta la vista, task.",
+	"icon": "images/icon.png",
+	"keywords": [
+		"tasks",
+		"run"
+	],
+	"galleryBanner": {
+		"color": "#7B0000",
+		"theme": "dark"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/vshaxe/vscode-terminator"
+	},
+	"bugs": {
+		"url": "https://github.com/vshaxe/vscode-terminator"
+	},
+	"engines": {
+		"vscode": "^1.24.0"
+	},
+	"activationEvents": [
+		"*"
+	],
+	"main": "bin/main.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "terminator.run",
+				"title": "Run Task",
+				"category": "Terminator"
+			}
+		],
+		"menus": {
+			"commandPalette": [
+				{
+					"command": "terminator.run",
+					"when": "false"
+				}
+			]
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "haxe build.hxml"
+	}
 }
