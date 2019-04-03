@@ -47,5 +47,10 @@
 	},
 	"scripts": {
 		"vscode:prepublish": "haxe build.hxml"
+	},
+	"__metadata": {
+		"id": "ea9d86fd-2ddd-4ba7-8a08-918a0d8295dc",
+		"publisherDisplayName": "vshaxe",
+		"publisherId": "bdf58939-bf37-40d4-9543-90fcc14fd490"
 	}
 }
