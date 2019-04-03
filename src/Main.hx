@@ -17,7 +17,7 @@ class Main {
 			runningTasks = runningTasks.filter(execution -> execution.task.name != event.execution.task.name);
 		});
 
-		commands.registerCommand("terminator.run", taskName -> {
+		commands.registerCommand("terminator.run", function(taskName) {
 			if (taskName == null || taskName == "") {
 				window.showErrorMessage('Keybinding is missing a task name regex to match against in `args`.');
 				return;
