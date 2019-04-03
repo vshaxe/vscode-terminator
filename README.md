@@ -11,7 +11,7 @@ No more! Terminator allows you to run tasks without any mercy for any potentiall
 {
 	"key": "ctrl+shift+b",
 	"command": "terminator.run",
-	"args": ["test*"]
+	"args": ["^test \\(active configuration\\)"]
 }
 ```
 
