@@ -15,7 +15,7 @@ No more! Terminator allows you to run tasks without any mercy for any potentiall
 }
 ```
 
-`args` contains a regex that matches against the task name, in this case the `test neko -debug` task (extension prefixes like `lime:` are _not_ part of the string that is matched against).
+`args` contains a regex that matches against the task name, in this case the `test (active configuration)` task (extension prefixes like `lime:` are _not_ part of the string that is matched against).
 
 ![](images/tasks.png)
 
