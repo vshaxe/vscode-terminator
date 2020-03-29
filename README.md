@@ -1,5 +1,5 @@
 # Terminator
-[![Build Status](https://travis-ci.org/vshaxe/vscode-terminator.svg?branch=master)](https://travis-ci.org/vshaxe/vscode-terminator) [![Version](https://vsmarketplacebadge.apphb.com/version-short/vshaxe.terminator.svg)](https://marketplace.visualstudio.com/items?itemName=vshaxe.terminator) [![Installs](https://vsmarketplacebadge.apphb.com/installs-short/vshaxe.terminator.svg)](https://marketplace.visualstudio.com/items?itemName=vshaxe.terminator)
+[![CI](https://img.shields.io/github/workflow/status/vshaxe/vscode-terminator/CI.svg?logo=github)](https://github.com/vshaxe/vscode-terminator/actions?query=workflow%3ACI) [![Version](https://vsmarketplacebadge.apphb.com/version-short/vshaxe.terminator.svg)](https://marketplace.visualstudio.com/items?itemName=vshaxe.terminator) [![Installs](https://vsmarketplacebadge.apphb.com/installs-short/vshaxe.terminator.svg)](https://marketplace.visualstudio.com/items?itemName=vshaxe.terminator)
 
 Have you wasted countless clicks on this popup too?
 
